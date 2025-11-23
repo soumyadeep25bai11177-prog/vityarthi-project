@@ -1,16 +1,20 @@
 CLI Expense Tracker (Python) 
 A simple, command-line interface (CLI) application built with Python for tracking personal expenses. 
 All data is persisted locally in a expenses.csv file, allowing you to easily manage and analyze your 
-f
- inancial history. 
+financial history. 
 Features 
 Expense Logging: Easily record new expenses with a date, category, amount, and description. 
+
 Data Persistence: Automatically saves all entries to a local expenses.csv file upon exiting. 
+
 View Entries: Display a formatted, chronological list of all recorded transactions. 
+
 Financial Summary: Generate a quick report showing the total amount spent and a detailed 
 breakdown of spending by category. 
+
 Input Validation: Basic checks ensure that input amounts are numerical and dates follow the required 
 format (YYYY-MM-DD). 
+
 Requirements 
 Python 3.6+ (The script uses standard library packages: csv, os, datetime, collections). 
 Installation and Setup 
@@ -20,6 +24,7 @@ the file, and run:
 python expense_tracker.py 
 The application will automatically create an empty expenses.csv file in the same directory if one does 
 not already exist. 
+
 Usage 
 When you run the application, you will be presented with the main menu: 
 Welcome to the CLI Expense Tracker! 
