@@ -1,47 +1,46 @@
-CLI Expense Tracker (Python) 
-A simple, command-line interface (CLI) application built with Python for tracking personal expenses. 
-All data is persisted locally in a expenses.csv file, allowing you to easily manage and analyze your 
-financial history. 
-Features 
-Expense Logging: Easily record new expenses with a date, category, amount, and description. 
+Expense Tracker:
 
-Data Persistence: Automatically saves all entries to a local expenses.csv file upon exiting. 
+For people who are tired of being surprised by their bank account.
 
-View Entries: Display a formatted, chronological list of all recorded transactions. 
+Welcome to the most honest expense tracker you'll ever use. This Python script doesn't just track your spending; it actively judges your life choices while storing your financial trauma in a file called my_money_goes_brrr.csv.
 
-Financial Summary: Generate a quick report showing the total amount spent and a detailed 
-breakdown of spending by category. 
+Features:
 
-Input Validation: Basic checks ensure that input amounts are numerical and dates follow the required 
-format (YYYY-MM-DD). 
+Receipt Tracking: Loads your history of bad decisions every time you start the app.
 
-Requirements 
-Python 3.6+ (The script uses standard library packages: csv, os, datetime, collections). 
-Installation and Setup 
-Clone or Download: Get the expense_tracker.py file to your local machine. 
-Run the Script: Open your terminal or command prompt, navigate to the directory where you saved 
-the file, and run: 
-python expense_tracker.py 
-The application will automatically create an empty expenses.csv file in the same directory if one does 
-not already exist. 
+"Oof Another One" Logging: Quickly add new expenses when you inevitably spend money you shouldn't have.
 
-Usage 
-When you run the application, you will be presented with the main menu: 
-Welcome to the CLI Expense Tracker! 
-Successfully loaded 0 existing records. --- Menu --- 
-1. Add New Expense 
-2. View All Expenses 
-3. View Summary Report 
-4. Save & Exit 
-Enter your choice (1-4):  
-1. Add New Expense 
-Select option 1 to input details for a new transaction. The application will guide you through entering 
-the date, amount, category, and description. 
-Date: Enter in YYYY-MM-DD format (e.g., 2025-11-20). Leaving it blank defaults to today's date. 
-Category: Choose from suggested categories (Food, Bills, Transport, Entertainment, Income, Other) 
-or enter a custom one. 
-2. View All Expenses 
-Select option 2 to display a neatly formatted table of all expenses, sorted by date (newest first). 
-3. View Summary Report 
-Select option 3 to see two key statistics: 
-Total Spent: The sum of all recorded amounts. 
+The Cold Hard Truth: A summary feature that shows you exactly where your money is going (spoiler: it's probably food).
+
+Visual Guilt: ASCII bar charts show the percentage breakdown of your spending categories.
+
+Persistent Trauma: Automatically saves everything to CSV so you can't escape your financial history even if you close the app.
+
+How to Run:
+
+Make sure you have Python installed.
+
+Download the script.
+
+Run it in your terminal:
+
+python expense_tracker.py
+
+
+Menu Options:
+
+When you launch the tracker, you'll be greeted by your broke homie and given 4 choices:
+
+Just spent money (again): Log a new L. You'll need the Date, Amount, Category, and a Description ("spill the tea").
+
+Show me the receipts: A chronological list of every time you messed up.
+
+How cooked am i: The analytics dashboard. Shows total spent and a breakdown by category.
+
+Save and run away: Saves your data to my_money_goes_brrr.csv and exits before you cry.
+
+Data Storage:
+
+All data is stored in my_money_goes_brrr.csv. You can open this in Excel if you really want to see your Ls in high definition.
+
+start saving money.
